@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Emran\\Contact\\ContactServiceProvider"
+                "Emran\\Contact\\Providers\\ContactServiceProvider"
             ]
         }
     }
