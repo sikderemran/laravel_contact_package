@@ -1,6 +1,6 @@
 {
     "name": "emran/contact",
-    "description": "This package is for comunication",
+    "description": "This will send email to admin and save contact query in database",
     "type": "library",
     "authors": [
         {
@@ -13,6 +13,13 @@
     "autoload": {
         "psr-4": {
             "Emran\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Emran\\Contact\\ContactServiceProvider"
+            ]
         }
     }
 }
